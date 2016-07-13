@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="olympicApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Olympic Marketing Campaign Picker</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <<link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="angular-route.min.js" charset="utf-8"></script>
+    <script src="js/client.js" charset="utf-8"></script>
+    <base href="/">
+  </head>
+  <body ng-controller="AppController">
+    <header>
+      <h1>Olympic Marketing Campaign Picker</h1>
+    </header>
+    <main>
+      <a href="/archery"><button class="btn btn-lg btn-primary">Archery</button></a>
+      <a href="/canoe"><button class="btn btn-lg btn-primary">Canoe/Kayak</button></a>
+      <a href="/judo"><button class="btn btn-lg btn-primary">Judo</button></a>
+      <a href="/tableten"><button class="btn btn-lg btn-primary">Table Tennis</button></a>
+      <a href="/taekwondo"><button class="btn btn-lg btn-primary">Taekwondo</button></a>
+      <div ng-view>
+        <!-- Stuff Loaded by Angular goes here -->
+      </div>
+    </main>
+  </body>
+</html>

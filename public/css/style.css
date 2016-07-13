@@ -1,0 +1,38 @@
+header{
+  text-align: center;
+  background-color: white;
+}
+body{
+  width: auto;
+  margin: 0 auto;
+  background: url('../img/flag.JPG') no-repeat fixed center;
+  font-family: 'Roboto', sans-serif;
+}
+main{
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.buttonLine{
+  padding: 10px;
+}
+.athletes{
+  display: inline-block;
+  margin: 10px;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  opacity: .75;
+}
+.athletes h1{
+  font-size: 5em;
+  font-weight: bold;
+  opacity: 1;
+}
+.athletes h2{
+  font-size: 4em;
+  font-weight: bold;
+  opacity: 1;
+}
