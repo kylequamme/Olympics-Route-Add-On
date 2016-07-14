@@ -1,3 +1,4 @@
-angular.module('olympicApp').controller('ArcheryController', function($scope){
-$scope.athlete = DataService.getSport('archery');
+angular.module('olympicApp').controller('ArcheryController', function($scope, DataService){
+  DataService.getSport('archery');
+    $scope.data = DataService.data;
 });
